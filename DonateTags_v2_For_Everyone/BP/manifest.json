@@ -1,0 +1,58 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "DonateTags v2 | Behavior (Everyone)",
+    "description": "Admin Book accessible to all players",
+    "uuid": "32e69084-2baa-4f21-bac4-70b2d4d9ee0b",
+    "version": [
+      2,
+      3,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      80
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "fdae0626-fb76-43e8-91e4-c7834cd26d15",
+      "version": [
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "52709518-fd68-4c1c-a850-7b975eea9b91",
+      "version": [
+        2,
+        3,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.0.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.0.0"
+    },
+    {
+      "uuid": "488cc6d7-a1f5-4480-8feb-08aa6b3aa1b6",
+      "version": [
+        2,
+        3,
+        1
+      ]
+    }
+  ]
+}
