@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "DonateTags v2 | Resources (Everyone)",
+    "description": "Admin Book icon",
+    "uuid": "488cc6d7-a1f5-4480-8feb-08aa6b3aa1b6",
+    "version": [
+      2,
+      3,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      80
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "396d053e-0a13-447c-92de-350845f98863",
+      "version": [
+        2,
+        3,
+        1
+      ]
+    }
+  ]
+}
